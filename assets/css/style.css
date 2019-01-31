@@ -5,7 +5,7 @@ body {
 
 }
 
-.MyHeading{
+.MyHeading {
     color: white;
     top: 0;
     left: 0;
@@ -16,17 +16,16 @@ body {
 
 }
 
-#me{
-    float: left;
+#me {
+    
     font-family: 'Georgia', 'Times New Roman', Times, serif;
     font-size: 24px;
     font-weight: bold;
     text-align: center;
     text-align: middle;
-    width: 20%;
-    height: 40px;
-    padding-top: 20px
-    
+   padding-left: 5px;
+    padding-top: 20px;
+    padding-right: 5px
 
 }
 
@@ -34,7 +33,6 @@ body {
     margin: 0 auto;
     width: 960px;
     height: 50px
-
 }
 
 .content {
@@ -43,10 +41,10 @@ body {
     margin: 0 auto;
     margin-top: 90px;
     margin-bottom: 36px;
-    width: 900px;
+    width: 960px;
     padding: 30px;
     flex: 1 0 auto;
-
+    overflow: auto
 }
 
 .heading {
@@ -62,4 +60,151 @@ body {
 .footnote {
     background-color: #666666
     
+}
+
+.PIC {
+    height: 200px;
+    width: 200px;
+    transform: rotate(90deg);
+    float: left;
+    
+}
+
+a {
+    display: inline;
+    float: right;
+}
+
+strong {
+    display: inline;
+    float: left;
+
+}
+
+.words {
+    padding-left: 210px;
+    
+}
+
+.row1{
+    position: relative;
+    float: left;
+    width: 960px;
+    height: 150px;
+    overflow: auto;
+    background-color: #ffffff;
+}
+
+.row2{
+    position: relative;
+    padding-top: 20px;
+    float: left;
+    width: 960px;
+    height: 150px;
+    overflow: auto;
+    background-color: #ffffff;
+}
+
+.row3{
+    position: relative;
+    padding-top: 20px;
+    float: left;  
+    width: 960px;
+    height: 150px; 
+    overflow: auto;
+    background-color: #ffffff;
+}
+
+.img1{
+    width: 200px;
+    height: 150px;  
+    position: absolute;
+    left: 0;
+    top: 0;
+}
+
+.textbox1{
+    width: 200px;
+    height: 25px;
+    padding-top:5px;
+    position: absolute;
+    bottom: 0%;
+    background-color: #4aaaa5;
+    color: #fff;
+    text-align: center;
+}
+
+.img2{
+    width: 200px;
+    height: 150px;  
+    position: absolute;
+    left: 25.71%;
+}
+
+.textbox2{
+    width: 200px;
+    height: 25px;
+    padding-top:5px;
+    position: absolute;
+    bottom: 0%;
+    background-color: #4aaaa5;
+    color: #fff;
+    text-align: center;
+    left: 25.71%;
+}
+
+.img3{
+    width: 200px;
+    height: 150px;  
+    position: absolute;
+    left: 0;
+    top: 0;
+    padding-top: 20px
+}
+
+.textbox3{
+    width: 200px;
+    height: 25px;
+    padding-top:5px;
+    position: absolute;
+    bottom: 0%;
+    background-color: #4aaaa5;
+    color: #fff;
+    text-align: center;
+}
+
+.img4{
+    width: 200px;
+    height: 150px;  
+    position: absolute;
+    left: 25.71%;
+}
+
+.textbox4{
+    width: 200px;
+    height: 25px;
+    padding-top:5px;
+    position: absolute;
+    bottom: 0%;
+    background-color: #4aaaa5;
+    color: #fff;
+    text-align: center;
+    left:25.71%;
+}
+
+.img5{
+    width: 200px;
+    height: 150px;  
+    position: absolute;
+}
+
+.textbox5{
+    width: 200px;
+    height: 25px;
+    padding-top:5px;
+    position: absolute;
+    bottom: 0%;
+    background-color: #4aaaa5;
+    color: #fff;
+    text-align: center;
 }
